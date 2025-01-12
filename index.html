@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de desarrollo frontend y diseño web">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preload" href="./estilo/style.css" as="style" type="text/css" onload="this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Jaime | Desarrollador Frontend</title>
+    <link rel="stylesheet" href="./estilo/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <nav class="container">
+                <div class="logo">
+                    <h1>Jaime</h1>
+                </div>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-section">
+                <div class="container">
+                    <div class="box-texto">
+                        <span class="intro-text">Hola, soy Jaime</span>
+                        <h2>Desarrollador Frontend y diseñador web</h2>
+                        <p class="hero-description">
+                            Dedicándome a esto desde hace 3 años profesionalmente pero diseñando 
+                            y desarrollando desde mucho antes. En los últimos años he descubierto 
+                            la ayuda de la Inteligencia artificial, tanto para la ayuda escribiendo
+                            codigo como para ayudarme en el diseño y en la creación de imágenes para la web
+                        </p>
+                        <a href="#contacto" class="cta-button">Contacta conmigo</a>
+                    </div>
+                    <div class="box-imagen">
+                        <img src="img/hero.jpg" alt="Jaime programando una web">
+                    </div>
+                </div>
+            </section>
+
+            <section id="proyectos" class="projects-section">
+                <div class="container">
+                    <h2>Proyectos</h2>
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="img/autoflex.jpg" alt="portada web autoflex">
+                            </div>
+                            <div class="project-content">
+                                <h3>Autoflex</h3>
+                                <p>Desarrollé una interfaz de usuario intuitiva con React para 
+                                    una plataforma de alquiler de coches ficticia, optimizando 
+                                    la experiencia de reserva. Utilizando componentes
+                                    reutilizables, creé una aplicación fluida que permite a 
+                                    los usuarios seleccionar rápidamente el vehículo deseado
+                                    entre las opciones disponibles.</p>
+                                <a href="#" class="project-link">Ver proyecto</a>
+                            </div>
+                        </article>
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="img/morse.jpg" alt="portada web autoflex">
+                            </div>
+                            <div class="project-content">
+                                <h3>Traductor de Morse</h3>
+                                <p>Descubre el código Morse con esta aplicación web. 
+                                    Desarrollada con HTML, SCSS y JavaScript, esta herramienta
+                                    te permite traducir textos a código Morse y escuchar su
+                                    sonido característico. La interfaz sencilla y amigable
+                                    facilita su uso, y la opción de descarga te permite
+                                    guardar tus traducciones</p>
+                                <a href="#" class="project-link">Ver proyecto</a>
+                            </div>
+                        </article>
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="img/rincon-de-la-brisa.jpg" alt="portada web El Rincón de la Brisa">
+                            </div>
+                            <div class="project-content">
+                                <h3>El Rincón de la Brisa</h3>
+                                <p>"El Rincón de la Brisa" es una web de restaurante de lujo ficticio que he desarrollado con React. Mi objetivo 
+                                    principal fue crear un diseño elegante y moderno que capture la 
+                                    exclusividad del restaurante. Para lograr una navegación fluida entre 
+                                    las secciones utilicé React Router, y estructuré el proyecto con componentes 
+                                    para una mejor organización del código.</p>
+                                <a href="#" class="project-link">Ver proyecto</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-section">
+                <div class="container">
+                    <div class="about-text">
+                        <h2>Sobre mi</h2>
+                        <p>¡Hola!  Me llamo Jaime y llevo tres años creando webs profesionalmente, 
+                        aunque mi viaje comenzó antes como autodidacta, diseñando y 
+                        desarrollando páginas web por mi cuenta. Me gusta mucho
+                        combinar el diseño con el desarrollo.</p>
+
+                        <p>
+                        En mi trabajo diseño webs con Figma y las implemento con HTML, SCSS
+                        y JavaScript, pero en mi tiempo libre estoy creando proyectos con
+                        React aprovechando sus capacidades avanzadas para crear aplicaciones
+                        web más eficientes y escalables. La arquitectura basada en componentes
+                        de React me permite construir interfaces modulares y reutilizables,
+                        mientras que su sistema de enrutamiento me facilita la navegación
+                        fluida entre distintas vistas. Además, el manejo del estado con
+                        React me permite crear aplicaciones interactivas y dinámicas
+                        que responden eficientemente a las acciones del usuario.</p>
+
+                        <p>Desde que aplico IA para programar (GitHub Copilot y ChatGPT) 
+                        he acelerado mucho el tiempo de desarrollo, facilitándome tareas 
+                        como la creación de componentes, rutas y dándome la oportunidad de
+                        centrarme en todo el conjunto más que escribir correctamente la 
+                        sintaxis (también me evita buscar un corchete mal cerrado durante
+                        un buen rato).</p>
+
+                        <p>Me sigo formando. He terminado el curso de Meta Frontend Certificate 
+                        recientemente y quiero profundizar en UX/UI experience en este 2025.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/jaime-ordenador.jpg" alt="Jaime de pie sosteniendo un ordenador portátil">
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="contacto" class="contact-section">
+                <div class="container">
+                    <h3>Contacto</h3>
+                    <div class="contact-container">
+                        <div class="contact-buttons">
+                            <a href="#" class="project-link link-blue">Contacta en LinkedIn</a>
+                            <a href="#" class="project-link link-white">Manda un email</a>
+                        </div>
+                        <div class="social-links">
+                            <div class="social-container">
+                                <a>GitHub</a>
+                                <img src="img/outerlink.png" alt="link externo">
+                            </div>
+                            <div class="social-container">
+                                <a>LinkedIn</a>
+                                <img src="img/outerlink.png" alt="link externo">
+                            </div>
+                            <div class="social-container">
+                                <a>X (Twitter)</a>
+                                <img src="img/outerlink.png" alt="link externo">
+                            </div>
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer-content">
+                </div>
+            </div>
+        </footer>
+
+        <script src="main.js" defer></script>
+    </div>
+</body>
+</html>
